@@ -1,10 +1,5 @@
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
-KEY_LOCK_ENABLE = no
 VIAL_INSECURE = yes
-
-# must reduce EEPROM usage
 LTO_ENABLE = yes
-KEY_OVERRIDE_ENABLE = no
-QMK_SETTINGS = no
 TAP_DANCE_ENABLE = no
