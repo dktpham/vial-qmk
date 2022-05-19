@@ -24,6 +24,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MANUFACTURER    Gowla
 #define PRODUCT         Gowla Macro Board
 
+/* RGB */
+#define RGB_DI_PIN B6
+#define RGBLED_NUM 3
+//#define RGBLIGHT_EFFECT_STATIC_LIGHT
+//#define RGBLIGHT_EFFECT_RGB_TEST
+//#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+//#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_HUE_STEP 10
+#define RGBLIGHT_SAT_STEP 17
+#define RGBLIGHT_LIMIT_VAL 225
+#define RGBLIGHT_ANIMATIONS
+
 /* Matrix size */
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 3
@@ -32,6 +44,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { D1, D0, D4 }
 #define MATRIX_COL_PINS { B5, B4, E6 }
 #define UNUSED_PINS
+
+/* Rotary Encoder*/
+#define ENCODERS_PAD_A { B2 }
+#define ENCODERS_PAD_B { B3 }
+#define ENCODER_RESOLUTION 4
 
 /* ROW2COL */
 #define DIODE_DIRECTION ROW2COL
